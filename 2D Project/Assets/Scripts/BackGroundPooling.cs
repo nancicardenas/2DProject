@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-public class ObjectPooling : MonoBehaviour
+public class BackGroundPooling : MonoBehaviour
 {
-    public static ObjectPooling SharedInstance;
+    public static BackGroundPooling SharedInstance;
     public List<GameObject> pooledObjects;
     public GameObject objectToPool;
     public int amountToPool;

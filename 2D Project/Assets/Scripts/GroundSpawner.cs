@@ -4,10 +4,10 @@ public class GroundSpawner : MonoBehaviour
 {
     public Transform cameraTransform;
     public GameObject ground;
-    public float spawnDist = 10f;
-    public float groundWidth = 2f;
+    public float spawnDist = 30f;
+    public float groundWidth = 40f;//18 before 
 
-    private float nextSpawnX = 0f;
+    private float nextSpawnX = 30f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,13 +17,15 @@ public class GroundSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if(cameraTransform.position.x + spawnDist > nextSpawnX)
         {
             SpawnGround();
             //ground.SetActive(false);
         }
 
-        foreach(GameObject obj in ObjectPooling.SharedInstance.pooledObjects)
+        //set any ground objects to false once they are off the camera 
+        foreach(GameObject obj in GroundPooling.SharedInstance.pooledObjects)
         {
             if(obj.activeInHierarchy && obj.transform.position.x < cameraTransform.position.x - 10f)
             {
@@ -32,9 +34,10 @@ public class GroundSpawner : MonoBehaviour
         }
     }
 
+    //spawns ground by using object pooling for game optimization 
     void SpawnGround()
     {
-        GameObject ground = ObjectPooling.SharedInstance.GetPooledObject();
+        GameObject ground = GroundPooling.SharedInstance.GetPooledObject();
 
         if (ground != null)
         {
