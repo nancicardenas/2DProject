@@ -45,7 +45,8 @@ public class SpeedItem : MonoBehaviour
     }
 
     private void OnBecameInvisible() {
-        enabled = false; 
+        enabled = false;
+        Destroy(gameObject);
     }
 
     // Update is called once per frame

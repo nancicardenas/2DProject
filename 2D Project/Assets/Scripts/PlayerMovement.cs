@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
 
-    private bool grounded; 
+    private bool grounded;
+    private bool attacked;
     //references for rigid body and animator of object 
     private void Awake() {
         body = GetComponent<Rigidbody2D>();
@@ -68,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     //is called whenever player jumps 
     private void Jump() {
-        body.linearVelocity = new Vector2(body.linearVelocity.x, speed * 2f);
+        body.linearVelocity = new Vector2(body.linearVelocity.x, speed * 2.5f);
         anim.SetTrigger("jump");
 
         grounded = false;
@@ -81,5 +83,11 @@ public class PlayerMovement : MonoBehaviour
         if(collidedWith.CompareTag("Ground")) {
             grounded = true;
         }
+
+        if (collidedWith.CompareTag("BeeEnemy"))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
+
 }

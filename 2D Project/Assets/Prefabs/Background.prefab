@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4680033312026633946}
   - component: {fileID: 6226709485033518724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainLeftBlock_v1_1_14 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3879686530053893324}
   - component: {fileID: 3312631067807312260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4688820279738467261}
   - component: {fileID: 8363886114856896305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 196224284779478208}
   - component: {fileID: 6461745268565954562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4216518005139828985}
   - component: {fileID: 8718511307694786691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442614225001531818}
   - component: {fileID: 8077100034613048679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountaintLeftBlock_v1_1_14 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3284663667318725005}
   - component: {fileID: 2604801017308080737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,7 +640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7002527417246921879}
   - component: {fileID: 5836578155629386902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,7 +730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7927428669451420398}
   - component: {fileID: 6535506689228743321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CandyCane_v1_1_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5199880058286245279}
   - component: {fileID: 4064914571211504061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2552858278660143697}
   - component: {fileID: 3451377042223162432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2083162694686370829}
   - component: {fileID: 4220078866876813214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2967224563388900479}
   - component: {fileID: 6092810120237109851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: YellowCandy_v1_1_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1179,7 +1179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8728958118624247543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Candies '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1224,7 +1224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6121386279189758762}
   - component: {fileID: 1916008386063116211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1314,7 +1314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4473553662195141578}
   - component: {fileID: 4734117530745024474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1404,7 +1404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4539201568261654472}
   - component: {fileID: 8287317374359517247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlueCandy_v1_1_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,7 +1493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4567832544759476319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mountains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3923959911162556448}
   - component: {fileID: 8088469939416746096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1639,7 +1639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862843085840114380}
   - component: {fileID: 292829256536034629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1729,7 +1729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4379829849517103147}
   - component: {fileID: 4308132782022874731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1819,7 +1819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3050734564899829660}
   - component: {fileID: 6483544797053272005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1909,7 +1909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8202263593322824496}
   - component: {fileID: 2667033502761277320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +1999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3619843601196190587}
   - component: {fileID: 326119462571082615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2245654039792366434}
   - component: {fileID: 1641493588870085674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2179,7 +2179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4512778270431179911}
   - component: {fileID: 4137059098797026425}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677630748633490611}
   - component: {fileID: 7843489439017404518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlueCandy_v1_1_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2359,7 +2359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 233951833314591916}
   - component: {fileID: 4710677005178307676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2449,7 +2449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5870574920239671150}
   - component: {fileID: 124706362380762385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountaintLeftBlock_v1_1_14 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2539,7 +2539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6127822580170189871}
   - component: {fileID: 2156693813871166144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2629,7 +2629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6847911761612148692}
   - component: {fileID: 4354370184866728923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2719,7 +2719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3387798786397432307}
   - component: {fileID: 1410671858660742568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2809,7 +2809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5528040049512508155}
   - component: {fileID: 6515792822334765746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2899,7 +2899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3906922912400050671}
   - component: {fileID: 3834071036111784771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2989,7 +2989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7273516104317248872}
   - component: {fileID: 2274766904379444558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainLeftBlock_v1_1_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3079,7 +3079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3278983034678184914}
   - component: {fileID: 5558737381541506209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3168,7 +3168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2053035914732422597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3218,7 +3218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2629233959128426860}
   - component: {fileID: 610611092132084834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3308,7 +3308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8543964181555657264}
   - component: {fileID: 711386266809986177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3398,7 +3398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5251170261344854129}
   - component: {fileID: 7818235288602087232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3488,7 +3488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7902496025740053283}
   - component: {fileID: 3924423113386965650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3578,7 +3578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7871042306292400047}
   - component: {fileID: 5045207121838593322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3668,7 +3668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577316231106126832}
   - component: {fileID: 1420360249773534183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3758,7 +3758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4631741268192919017}
   - component: {fileID: 3777949548748525573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3848,7 +3848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8091499343388938179}
   - component: {fileID: 2191182297416407047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3938,7 +3938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495516174783571100}
   - component: {fileID: 4974398653006375672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4028,7 +4028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897911091455347164}
   - component: {fileID: 8506609618673755752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainLeftBlock_v1_1_14 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4118,7 +4118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6610583412499628722}
   - component: {fileID: 203126365446247039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4208,7 +4208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6217547139376465178}
   - component: {fileID: 4187349648591132322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4298,7 +4298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1304628962201822129}
   - component: {fileID: 100575361343751030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainLeftBlock_v1_1_14 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4388,7 +4388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 669666860225056273}
   - component: {fileID: 4561094932156761618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainLeftBlock_v1_1_14 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4478,7 +4478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5179805333541791065}
   - component: {fileID: 6830612199191123088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: candyLand_background (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4568,7 +4568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7774251855275074110}
   - component: {fileID: 9015827197079919903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainRightBlock_v1_1_16 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4658,7 +4658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7553452920600089712}
   - component: {fileID: 8919321739852375368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MountainBlock_v1_1_15 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4748,7 +4748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8284506716293494412}
   - component: {fileID: 6281342075804796527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkGrass_v1_1_44 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4838,7 +4838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2419398699512446733}
   - component: {fileID: 5825083600234994969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CandyCane_v1_1_24 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

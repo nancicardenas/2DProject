@@ -27,7 +27,7 @@ public class GroundSpawner : MonoBehaviour
         //set any ground objects to false once they are off the camera 
         foreach(GameObject obj in GroundPooling.SharedInstance.pooledObjects)
         {
-            if(obj.activeInHierarchy && obj.transform.position.x < cameraTransform.position.x - 10f)
+            if(obj.activeInHierarchy && obj.transform.position.x < cameraTransform.position.x - 40f)
             {
                 obj.SetActive(false);
             }
