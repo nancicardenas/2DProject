@@ -9,16 +9,14 @@ public class SpeedItem : MonoBehaviour
     public static event Action<float> OnSpeedCollected;
     public float speedMult = 1.5f;
 
-    //variables used to spawn speed items randomly 
-   // public GameObject speedItem;
-    //public GameObject[] spawnPoints;
-    //public float timer;
-    //public float timeBetween;
+    public ScoreCounter scoreCounter;
 
     private Animator anim;
 
     private void Start() {
-        
+       GameObject scoreGO = GameObject.Find("ScoreCounter");
+
+       scoreCounter = scoreGO.GetComponent<ScoreCounter>();
     }
 
     private void Awake() {
@@ -28,16 +26,21 @@ public class SpeedItem : MonoBehaviour
     //when speed boost item is collected invoke speed multiplier and destroy item
     public void Collect() {
         OnSpeedCollected.Invoke(speedMult);
+        //try set high score here ?
+        //
         Destroy(gameObject);
+        scoreCounter.score += 200;
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Player") {
+            scoreCounter.score += 200;
             Collect();
         }
     }
+
     //STILL NEED TO TEST 
-    //animation for speed item whenever it is visble on screen 
+    //animation for speed item whenever it is visbile on screen 
     private void OnBecameVisible() {
         anim.SetTrigger("idleSpeedItem");
         //might not need this 
@@ -48,20 +51,4 @@ public class SpeedItem : MonoBehaviour
         enabled = false;
         Destroy(gameObject);
     }
-
-    // Update is called once per frame
-    //void Update() {
-    //    //keep track of time 
-    //    timer += Time.deltaTime;
-
-    //    //if greater than you want to spawn a random object 
-    //    if (timer > timeBetween) {
-    //        //reset timer 
-    //        timer = 0;
-    //        //randomly chooses the spawn point 
-    //        int randNum = UnityEngine.Random.Range(0, 4);
-    //        //instantiates speed boost at specific spawn point 
-    //        Instantiate(speedItem, spawnPoints[randNum].transform.position, Quaternion.identity);
-    //    }
-    //}
 }

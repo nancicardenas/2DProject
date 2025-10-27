@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6872687253387691657}
   - component: {fileID: 5426118483918237217}
   - component: {fileID: 3049896266463742676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpeedItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoostItem
   speedMult: 2
+  scoreCounter: {fileID: 0}
 --- !u!95 &5426118483918237217
 Animator:
   serializedVersion: 7

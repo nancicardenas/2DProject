@@ -24,7 +24,18 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        SpeedItem.OnSpeedCollected += StartSpeedBoost; 
+        //SpeedItem.OnSpeedCollected += StartSpeedBoost; 
+    }
+
+    private void OnEnable()
+    {
+        SpeedItem.OnSpeedCollected += StartSpeedBoost;
+    }
+
+    private void OnDisable()
+    {
+        SpeedItem.OnSpeedCollected -= StartSpeedBoost;
+
     }
 
     //starts the coroutine to do the speed boost when item is collected 
@@ -84,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
             grounded = true;
         }
 
-        if (collidedWith.CompareTag("BeeEnemy"))
+        if (collidedWith.CompareTag("Enemy") || collidedWith.CompareTag("Projectile"))
         {
             SceneManager.LoadScene(0);
         }

@@ -7,7 +7,7 @@ public class GroundSpawner : MonoBehaviour
     public float spawnDist = 30f;
     public float groundWidth = 40f;//18 before 
 
-    private float nextSpawnX = 30f;
+    private float nextSpawnX = 35f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
